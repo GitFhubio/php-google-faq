@@ -43,10 +43,15 @@ If the country associated with your account doesn’t correspond to your country
 ["question"=>"Are my search queries sent to websites when I click on Google Search results?",
 "answer"=>"In some cases, yes. When you click on a search result in Google Search, your web browser also may send the Internet address, or URL, of the search results page to the destination webpage as the <a href=\"#\">Referrer URL</a>. The URL of the search results page may sometimes contain the search query you entered. If you are using SSL Search (Google’s encrypted search functionality), under most circumstances, your search terms will not be sent as part of the URL in the Referrer URL. There are some exceptions to this behavior, such as if you are using some less popular browsers. More information on SSL Search can be found here. Search queries or information contained in the Referrer URL may be available via Google Analytics or an application programming interface (API). In addition, advertisers may receive information relating to the exact keywords that triggered an ad click."],
 
+];
+
+$footerList=[
+  'Google','About Google','Privacy','Terms'
+];
+
+$footerSelect=[
+  'English','Italian','Français','Deutsch'
 ]
-
-
-
 ?>
 
 <!DOCTYPE html>
@@ -91,6 +96,24 @@ If the country associated with your account doesn’t correspond to your country
   </li>
 </ul>
 <?php } ?>
+</div>
+<div class="footer">
+<div class="container">
+  <ul>
+<?php foreach ($footerList as $element) {
+?> <li><?php echo $element; ?></li>
+<?php } ?>
+</ul>
+<ul>
+  <i class="fas fa-globe"></i>
+  <select class="my-select">
+    <?php foreach ($footerSelect as $option) {
+    ?> <option value=""><?php echo $option; ?></option>
+    <?php } ?>
+  </select>
+</ul>
+
+</div>
 </div>
   </body>
 </html>
