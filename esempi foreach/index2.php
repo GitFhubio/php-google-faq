@@ -39,6 +39,7 @@ $students = [
 foreach ($students as $student){ ?>
   <h1><?php echo $student['name']; ?></h1>
   <h2><?php echo $student['surname']; ?></h2>
+  <h3><?php echo array_sum($student['voti'])/count($student['voti']); ?></h3>
    <?php   $sum=0;
       for ($i=0; $i < count($student['voti']) ; $i++) {
      // echo $student['voti'][$i];
@@ -47,7 +48,6 @@ foreach ($students as $student){ ?>
    <h6> <?php echo $sum/count($student['voti']); ?> </h6>
      <?php  }
     ?>
-    <!-- oppure c'era array_sum  -->
 
  </div>
   </body>
