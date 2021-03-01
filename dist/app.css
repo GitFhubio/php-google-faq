@@ -126,3 +126,7 @@ ol {
 .lista-inside {
   list-style-type: lower-alpha;
 }
+
+p {
+  margin: 20px 0;
+}
