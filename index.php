@@ -99,12 +99,12 @@ $footerSelect=[
 </div>
 <div class="footer">
 <div class="container">
-  <ul>
+  <ul class="footer-left">
 <?php foreach ($footerList as $element) {
 ?> <li><?php echo $element; ?></li>
 <?php } ?>
 </ul>
-<ul>
+<ul class="footer-right">
   <i class="fas fa-globe"></i>
   <select class="my-select">
     <?php foreach ($footerSelect as $option) {
