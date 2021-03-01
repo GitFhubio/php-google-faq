@@ -1,5 +1,9 @@
+
 <?php
-@include "data.php";
+// ini_set("log_errors", 1);
+// ini_set("error_log", "/Applications/MAMP/logs/sito_fabio_php_error.log");
+// con questo mi da l'errore solo qui dentro
+include "data.php";
 ?>
 
 <!DOCTYPE html>
@@ -64,4 +68,5 @@
   </div>
 </div>
 </body>
+
 </html>
