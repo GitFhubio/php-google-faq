@@ -63,12 +63,12 @@ If the country associated with your account doesn’t correspond to your country
 <div class="header">
   <div class="header-top">
     <ul>
-      <li>  <img src="img/Google-Logo.png" alt=""></li>
-      <li>Privacy & Terms</li>
+      <li>  <img class="logo" src="img/Google-Logo.png" alt=""></li>
+      <li class="privacyterms">Privacy & Terms</li>
     </ul>
 <ul>
-  <li><i class="fas fa-bell"></i></li>
-  <li><i class="fas fa-folder"></i></li>
+  <li><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i></li>
+  <li><span class="user">F</span></li>
 </ul>
   </div>
   <div class="header-bottom">
