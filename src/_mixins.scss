@@ -1,0 +1,13 @@
+
+@mixin reset { margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
