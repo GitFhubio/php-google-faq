@@ -9,7 +9,7 @@ body {
   line-height: 1.9;
 }
 
-ul li {
+ul > li {
   display: inline-block;
   vertical-align: middle;
 }
@@ -115,4 +115,14 @@ a {
   color: grey;
   font-weight: 300;
   font-size: 12px;
+}
+
+ol {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.lista-inside {
+  list-style-type: lower-alpha;
 }

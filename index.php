@@ -22,8 +22,8 @@ You can learn more about safety and security online, including how to protect yo
 <a href=\"#\">Learn more</a> about how we keep your personal information private and safe — and put you in control."],
 ["question"=>"Why is my account associated with a country?",
 "answer"=>"Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:
-<ol class=\"lista-inside\"><li>The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:
-<ol><li>Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland
+<ol><li>The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:
+<ol class=\"lista-inside\"><li>Google Ireland Limited, if you’re located in the European Economic Area (EU countries plus Iceland, Liechtenstein, and Norway) or Switzerland
 </li><li>Google LLC, based in the United States, for the rest of the world</li></ol>
 
   </li><li>The version of the terms that govern our relationship, which can vary depending on local laws</li></ol>
